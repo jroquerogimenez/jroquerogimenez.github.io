@@ -1,17 +1,15 @@
 ---
-title: "Discovering conditionally salient features with statistical guarantees"
+title: "A Unified f-divergence Framework Generalizing VAE and GAN"
 collection: publications
-permalink: /publication/2019-05-conditionally-salient
-excerpt: 'Stabilizing the knockoff procedure through a novel multiple knockoff sampling approach and an improved optimization problem in the Gaussian case.'
-date: 2019-04-01
-venue: 'International Conference on Artificial Intelligence and Statistics (AISTATS)'
-paperurl: 'http://proceedings.mlr.press/v89/gimenez19b/gimenez19b.pdf'
-citation: 'Jaime Roquero Gimenez, and James Zou. "Discovering conditionally salient features with statistical guarantees." In International conference on machine learning, pp. 2290-2298. PMLR, 2019.'
-image: 'multiknockoffs.png'
+permalink: /publication/2022-05-f-divergence
+excerpt: 'We define a generalization of the Variational Auto-Encoder and Generative Adversarial network by redefining the loss through f-divergences.'
+paperurl: 'https://arxiv.org/abs/2205.05214'
+citation: 'Jaime Roquero Gimenez, and James Zou. "Identifying Invariant Factors Across Multiple Environments with KL Regression." ArXiv pre-print.'
+image: 'f-divergence.png'
 ---
 
-The goal of feature selection is to identify important features that are relevant to explain an outcome variable. Most of the work in this domain has focused on identifying globally relevant features, which are features that are related to the outcome using evidence across the entire dataset. We study a more fine-grained statistical problem: conditional feature selection, where a feature may be relevant depending on the values of the other features. For example in genetic association studies, variant A could be associated with the phenotype in the entire dataset, but conditioned on variant B being present it might be independent of the phenotype. In this sense, variant A is globally relevant, but conditioned on B it is no longer locally relevant in that region of the feature space. We present a generalization of the knockoff procedure that performs conditional feature selection while controlling a generalization of the false discovery rate (FDR) to the conditional setting. By exploiting the feature/response model-free framework of the knockoffs, the quality of the statistical FDR guarantee is not degraded even when we perform conditional feature selections. We implement this method and present an algorithm that automatically partitions the feature space such that it enhances the differences between selected sets in different regions, and validate the statistical theoretical results with experiments.
+Developing deep generative models that flexibly incorporate diverse measures of probability distance is an important area of research. Here we develop an unified mathematical framework of f-divergence generative model, f-GM, that incorporates both VAE and f-GAN, and enables tractable learning with general f-divergences. f-GM allows the experimenter to flexibly design the f-divergence function without changing the structure of the networks or the learning procedure. f-GM jointly models three components: a generator, a inference network and a density estimator. Therefore it simultaneously enables sampling, posterior inference of the latent variable as well as evaluation of the likelihood of an arbitrary datum. f-GM belongs to the class of encoder-decoder GANs: our density estimator can be interpreted as playing the role of a discriminator between samples in the joint space of latent code and observed space. We prove that f-GM naturally simplifies to the standard VAE and to f-GAN as special cases, and illustrates the connections between different encoder-decoder GAN architectures. f-GM is compatible with general network architecture and optimizer. We leverage it to experimentally explore the effects -- e.g. mode collapse and image sharpness -- of different choices of f-divergence.
 
-[Paper](http://proceedings.mlr.press/v89/gimenez19b/gimenez19b.pdf) \| [Supplement](http://proceedings.mlr.press/v89/gimenez19b/gimenez19b-supp.pdf) \| [Code](https://github.com/jroquerogimenez/Code_DGM)
+[Paper](https://arxiv.org/abs/2205.05214) \| [Code](https://github.com/jroquerogimenez/Code_DGM)
 
 
