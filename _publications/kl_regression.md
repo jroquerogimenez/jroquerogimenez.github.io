@@ -5,7 +5,7 @@ permalink: /publication/2020-02-kl-regression
 excerpt: 'We tackle here the problem of irreproducibility due to distribution shift. We develop a new approach to regression where datasets from different sources become data points in a regression where parametrization is done for distribution shifts. This allows us to estimate the causal invariant parameters shared across all distributions.'
 date: 2020-02-01
 paperurl: 'https://arxiv.org/abs/2002.08341'
-citation: 'Jaime Roquero Gimenez, and James Zou. "Identifying Invariant Factors Across Multiple Environments with KL Regression." ArXiv pre-print.'
+citation: 'Jaime Roquero Gimenez, and James Zou. "Identifying Invariant Factors Across Multiple Environments with KL Regression." ArXiv pre-print (2020).'
 image: 'kl_regression.png'
 ---
 

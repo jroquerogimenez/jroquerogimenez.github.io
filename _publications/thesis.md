@@ -3,9 +3,9 @@ title: "Causal Aggregation of Heterogeneous Datasets and Stabilization of Featur
 collection: publications
 permalink: /publication/2021-06-thesis
 excerpt: 'Thesis dissertation towards the PhD degree in Statistics at Stanford University.'
-date: 2021-06-01
+date: 2022-06-01
 paperurl: 'https://www.proquest.com/openview/9ddd50ee37cee307f8d1c45a6192e597/1?pq-origsite=gscholar&cbl=18750&diss=y'
-citation: 'Jaime Roquero Gimenez, "Causal Aggregation of Heterogeneous Datasets and Stabilization of Feature Selection Procedures", Stanford University PhD Dissertation.'
+citation: 'Jaime Roquero Gimenez, "Causal Aggregation of Heterogeneous Datasets and Stabilization of Feature Selection Procedures", Stanford University PhD Dissertation (2022).'
 ---
 
 Variable selection is increasingly becoming a key step in any data analysis pipeline. Identifying

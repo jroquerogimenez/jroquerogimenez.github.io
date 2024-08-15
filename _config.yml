@@ -24,7 +24,7 @@ author:
   avatar           : "photo_profile.png"
   name             : "Jaime Roquero Gimenez"
   pronouns         : # example: "she/her"
-  bio              : "Statistician by training, I develop rigorous data science tools to help with our understanding of disease. I am curious about multimodal high-dimensional biological datasets that arise in cancer research."
+  bio              : "Statistician by training, I develop rigorous data science tools to understand the biological mechanisms driving diseases. I am particularly curious about multimodal high-dimensional biological datasets that arise in cancer research."
   location         : "San Francisco Bay Area"
   employer         : "Stanford University"
   uri              : # URL

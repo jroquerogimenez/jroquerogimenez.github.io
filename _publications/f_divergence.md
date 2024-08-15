@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-05-f-divergence
 excerpt: 'We define a generalization of the Variational Auto-Encoder and Generative Adversarial network by redefining the loss through f-divergences.'
 paperurl: 'https://arxiv.org/abs/2205.05214'
-citation: 'Jaime Roquero Gimenez, and James Zou. "Identifying Invariant Factors Across Multiple Environments with KL Regression." ArXiv pre-print.'
+citation: 'Jaime Roquero Gimenez, and James Zou. "Identifying Invariant Factors Across Multiple Environments with KL Regression." ArXiv pre-print. Accepted at ISIT 2022.'
 image: 'f-divergence.png'
 ---
 
